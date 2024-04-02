@@ -47,6 +47,11 @@
    - `cap.release()`: Releases the video capture object.
    - `cv2.destroyAllWindows()`: Closes all OpenCV windows.
 
+
+*** **Model Complexity -> 0** : by default, the code will run. Keypoints will be less and dynamic movement will also be less. No fluctuate.
+
+*** **Model Complexity -> 1** : If the feature of frame (human) is not available, then system will break ; otherwise continue.
+
 ## Keypoints:
 - Real-time pose estimation from webcam feed.
 - Visualization of detected pose landmarks and connections on the video frame.
